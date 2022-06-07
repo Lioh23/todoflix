@@ -1,0 +1,16 @@
+.button-like {
+  background-color: var(--gray-600);
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.25rem;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-like svg {
+  color: var(--gray-200);
+}

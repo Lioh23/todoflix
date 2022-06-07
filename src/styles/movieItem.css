@@ -1,0 +1,64 @@
+.movie {
+  padding: 0.5rem;
+  margin-right: 0.25rem;
+  /* width: 360px; */
+  position: relative;
+} 
+
+.movie-button-like {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.movie > * {
+  margin-bottom: 0.5rem;
+}
+
+.movie-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom center;
+  height: 170px;
+  border-radius: 4px;
+}
+
+.movie-header {
+  font-size:0.91rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-rate {
+  min-width: 90px;
+  text-align: right;
+}
+
+.movie-rate svg {
+  display: inline-block;
+  margin-left: 0.25rem;
+  position: relative;
+  top: 1px;
+}
+
+.movie-description {
+  line-height: 1rem;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.good-rate {
+  color: var(--success);
+}
+
+.medium-rate {
+  color: var(--warning);
+}
+
+.bad-rate {
+  color: var(--danger);
+}
+
+.no-rate {
+  color: var(--gray);
+}

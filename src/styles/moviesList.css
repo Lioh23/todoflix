@@ -1,0 +1,14 @@
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.movies-list > * {
+  width: 340px;
+  margin-bottom: 3rem;
+}
+
+.movies-list .movie {
+  padding-left: 0;
+}
